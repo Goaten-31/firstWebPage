@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>first webpage</title>
+</head>
+<body>
+    <div class="container">
+        <header class="containerHeading">
+            <button class="toggleBtn" id="showSidebarBtn">☰</button>
+            <img src="/images/Goten.JPG" width="45" class="icon" id="icon" title="My GitHub">
+            <div class="dropdown">
+            <button class="dropbtn">...</button>
+            <div class="dropdown-content">
+                <p id="dropdownTitle">Options:</p>
+                <a href="#intro"id="firstElement">Slide</a>
+                <a href="#options">Box</a>
+                <a href="#other">Contact</a>
+            </div>
+            </div>
+
+            <div>
+                <h1 id="mainHeading"></h1>
+            </div>
+        </header>
+
+
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebarHeader">
+                <button id="hideSidebarBtn">☰</button>
+                <h2>Navigation</h2>
+            </div>
+            <ul class="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </aside>
+
+        
+
+        <main>
+            <div id="intro">
+                <div class="scroll-container-wrapper">
+                    <button id="leftArrow" class="arrow left-arrow"><<</button>
+                <div class="scroll-container" id="scrollableArea">
+                    <div class="heroSection">
+                    <div class="textContent">
+                    <h1 class="pageTitle">Placeholder Title</h1>
+                    <p class="bodyText">
+                        Placeholder Text<br>
+                        More Placeholder<br>
+                        Lorem<br>
+                        yay :D
+                    </p>
+                    </div>
+
+                    <div class="imageSlot">
+                    <img src="/images/muiGoku2Invis.png">
+                    </div>
+                    </div>
+                    <div class="content-item" id="secondItem">Item 2</div>
+                    <div class="content-item" id="thirdItem">Item 1</div>
+                    <div class="content-item" id="fourthItem">Item 2</div>
+                </div>
+                    <button id="rightArrow" class="arrow right-arrow">>></button>
+                </div>
+            </div>
+
+        <div id="options">
+            <p>
+                options
+            </p>
+        </div>
+        </main>
+       
+
+    </div>
+    
+    <footer>
+        
+        <div id="other">
+            check out more stuff on my <a href="https://github.com/Goaten-31" target="_blank">Github</a>
+        </div>
+
+    </footer>
+    
+
+    <script type="module" src="/JS files/script.js"></script>
+    
+</body>
+</html>
