@@ -31,8 +31,8 @@ header{
     align-items: center;
     width: 100vw;
     margin-top: -0.5%;
-    box-shadow: 1px 1px 15px #ffffff;
-    background: linear-gradient(90deg, #1f1f1f 15%, #1c1047 200%);
+    box-shadow: 1px 1px 15px #4b1111;
+    background: linear-gradient(90deg, #11131a 20%, #ff3b3b 100%);
     text-align: center;
     position: fixed;
 }
@@ -46,17 +46,14 @@ header{
 
 #showSidebarBtn{
   padding: 0%;
-  padding-right: 2%;
-  padding-left: 2%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding: 6px 8px 6px 8px;
   margin: 1%;
   border-radius: 8px;
   border: none;
-  background-color: #191919;
-  color: #dedede;
-  font-size: 18px;
-  margin-left: 2%;
+  background-color: #11131a;
+  color: #ff3b3b;
+  font-size: 26px;
+  margin-left: 38px;
   cursor: pointer;
 }
 
@@ -68,21 +65,24 @@ header{
   display: flex;
   flex-direction: row;
   background-color: #121212;
-  box-shadow: 0px 2px 6px #0a0a0a;
-  padding: 4%;
+  color: #ff3737;
+  box-shadow: 0px 2px 6px #160505;
+  padding: 6%;
   margin: 0%;
-  gap: 2%;
+  gap: 3%;
 }
 
 .sidebarHeader h2{
   margin: 0%;
-  font-size: 22px;
+  font-size: 26px;
+  font-weight: 900;
+  padding: 8px;
 }
 
 #hideSidebarBtn{
   border: none;
   background-color: #121212;
-  color: #dedede;
+  color: #ff3737;
   font-size: 18px;
   margin-left: 1%;
   margin-right: 3%;
@@ -96,14 +96,14 @@ header{
 
 .sidebar {
     width: 200px;
-    background-color: #191919; 
+    background-color: #11131a; 
     position: fixed;
     height: 100%; 
     overflow: auto;
     margin-top: 0%;
     display: none;
     border-radius: 8px;
-    box-shadow: 2px 2px 8px #0a0a0a;
+    box-shadow: 2px 2px 8px #4b1111;
     z-index: 1001;
 }
 
@@ -140,8 +140,8 @@ header{
 }
 
 .dropbtn {
-  background-color: #191919;
-  color: #ffffff;
+  background-color: #ff3b3b;
+  color: #11131a;
   padding: 10px;
   font-size: 16px;
   border: none;
@@ -267,52 +267,52 @@ main{
 }
 
 .heroSection {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 85%;
-      min-width: 700px;
-      background-color: #111111;
-      border-radius: 8px;
-      overflow: hidden;
-      padding: 50px 50px;
-      gap: 40px;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  min-width: 700px;
+  background-color: #111111;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 50px 50px;
+  gap: 40px;
+}
 
-    .textContent {
-      flex: 1;
-    }
+.textContent {
+  flex: 1;
+}
 
-    .pageTitle {
-      font-size: 2rem;
-      font-weight: normal;
-      margin-bottom: 24px;
-      letter-spacing: 0.5px;
-    }
+.pageTitle {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+}
 
-    .bodyText {
-      font-size: 1rem;
-      line-height: 1.8;
-      color: #cccccc;
-    }
+.bodyText {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #cccccc;
+}
 
-    .imageSlot {
-      flex: 1;
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
-      min-height: 280px;
-      margin: 0%;
-      padding: 0%;
-    }
+.imageSlot {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 280px;
+  margin: 0%;
+  padding: 0%;
+}
 
-    .imageSlot img {
-      max-width: 100%;
-      max-height: 300px;
-      object-fit: contain;
-      filter: grayscale(100%);
-      padding: 0%;
-    }
+.imageSlot img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  padding: 0%;
+}
 
 #options{
   text-align: center;
@@ -360,7 +360,7 @@ main{
 
 @keyframes slideIn {
   from {
-    transform: translateX(-30vw);
+    transform: translateX(-10vw);
     opacity: 0;
   }
   to {

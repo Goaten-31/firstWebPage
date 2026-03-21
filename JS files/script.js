@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function(event){
     const scrollableArea = document.getElementById("scrollableArea");
     const scrollTarget = document.getElementById('scroll-target');
 
-// Logically clone the inner HTML to create the "second set"
 });
 
 
@@ -43,14 +42,3 @@ leftArrow.addEventListener("click", () => {
     behavior: 'smooth'
   });
 });
-
-
-function autoScrollFeed(){
-    setTimeout(() => {
-    scrollableArea.scrollBy({
-    left: 810,
-    behavior: 'smooth'
-  });}, 1500)
-}
-
-autoScrollFeed();
