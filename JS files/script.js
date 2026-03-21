@@ -1,14 +1,9 @@
-document.addEventListener("DOMContentLoaded", function(event){
     const icon = document.getElementById('icon');
+
     const showSidebarBtn = document.getElementById('showSidebarBtn');
     const hideSidebarBtn = document.getElementsByClassName('hideSidebarBtn');
-    const sidebar = document.getElementById('sidebar');
-    const leftArrow = document.getElementById("leftArrow");
-    const rightArrow = document.getElementById("rightArrow");
-    const scrollableArea = document.getElementById("scrollableArea");
-    const scrollTarget = document.getElementById('scroll-target');
 
-});
+    const sidebar = document.getElementById('sidebar');
 
 
 icon.addEventListener('click', (e) => {
