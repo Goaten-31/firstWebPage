@@ -9,10 +9,15 @@
   src: url("/fonts/WorkSans.ttf") format("ttf");
 }
 
+*{
+  scrollbar-color: #ff3b3b #3c4050;
+}
+
 *::selection{
   color: #d9d3ff;
   background-color: #ff3b3b;
 }
+
 
 html{
     scroll-behavior: smooth;
@@ -44,7 +49,6 @@ header{
   align-items: center;
 
   margin: 0%;
-
 }
 
 #first-card{
