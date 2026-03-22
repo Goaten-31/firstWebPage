@@ -1,9 +1,10 @@
+document.addEventListener("DOMContentLoaded", (e) => {
     const icon = document.getElementById('icon');
 
     const showSidebarBtn = document.getElementById('showSidebarBtn');
     const hideSidebarBtn = document.getElementsByClassName('hideSidebarBtn');
-
     const sidebar = document.getElementById('sidebar');
+});
 
 
 icon.addEventListener('click', (e) => {
@@ -21,19 +22,4 @@ showSidebarBtn.addEventListener('click', () => {
 hideSidebarBtn.addEventListener('click', () => {
   sidebar.classList.remove('slideIn');
   sidebar.classList.add('slideOut');
-});
-
-rightArrow.addEventListener("click", () => {
-  scrollableArea.scrollBy({
-    left: 810,
-    behavior: 'smooth'
-  });
-});
-
-
-leftArrow.addEventListener("click", () => {
-  scrollableArea.scrollBy({
-    left: -810,
-    behavior: 'smooth'
-  });
 });
