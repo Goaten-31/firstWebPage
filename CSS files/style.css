@@ -13,12 +13,6 @@
   scrollbar-color: #ff3b3b #3c4050;
 }
 
-*::selection{
-  color: #d9d3ff;
-  background-color: #ff3b3b;
-}
-
-
 html{
     scroll-behavior: smooth;
     overflow: scroll;
@@ -77,9 +71,32 @@ header{
   box-shadow: 2px 2px 8px 2px #ff3b3b;
 }
 
+#first-card-header::selection{
+  color: #d9d3ff;
+  background-color: #ff3b3b;
+}
+
+
+#first-card-body::selection{
+  color: #d9d3ff;
+  background-color: #ff3b3b;
+}
+
 #third-card{
   background-color: #0e1015;
   box-shadow: 2px 2px 8px 2px #3b8dff;
+}
+
+
+#second-card-header::selection{
+  color: #1d1d1d;
+  background-color: #3bff52;
+}
+
+
+#second-card-body::selection{
+  color: #1d1d1d;
+  background-color: #3bff52;
 }
 
 .card-header{
@@ -89,6 +106,16 @@ header{
 
 #third-card-header{
   border-bottom: 1px solid #3b8dff;
+}
+
+#third-card-header::selection{
+  color: #eeeeee;
+  background-color: #3b8dff;
+}
+
+#third-card-body::selection{
+  color: #eeeeee;
+  background-color: #3b8dff;
 }
 
 #second-card{
