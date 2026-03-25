@@ -77,7 +77,7 @@ header{
   box-shadow: 2px 2px 8px 2px #ff3b3b;
 }
 
-#second-card{
+#third-card{
   background-color: #0e1015;
   box-shadow: 2px 2px 8px 2px #3b8dff;
 }
@@ -87,8 +87,17 @@ header{
   margin-bottom: 18px;
 }
 
-#second-card-header{
+#third-card-header{
   border-bottom: 1px solid #3b8dff;
+}
+
+#second-card{
+  background-color: #0e1015;
+  box-shadow: 2px 2px 8px 2px #3bff52;
+}
+
+#second-card-header{
+  border-bottom: 1px solid #3bff52;
 }
 
 .containerHeading{
