@@ -254,6 +254,7 @@ header{
   display: none;
   position: absolute;
   background-color: #11131a;
+  font-size: 18px;
   min-width: 160px;
   border-radius: 12px;
   box-shadow: 0px 8px 16px 10px #11131a;
