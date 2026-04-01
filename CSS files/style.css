@@ -216,7 +216,6 @@ header{
   animation: slideOut 0.5s forwards ease-in;
 }
 
-
 .navLinks{
   display: flex;
   flex-direction: column;
@@ -225,6 +224,12 @@ header{
 }
 
 .navLinks a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  padding: 12px;
+  min-width: 150px;
   color: #ff3737;
   text-decoration: none;
 }
@@ -236,6 +241,11 @@ header{
 .nav-link-container{
   display: flex;
   align-items: center;
+  border-radius: 24px;
+}
+
+.nav-link-container:hover{
+  background-color: #1d1d1d;
 }
 
 .dropdown {
