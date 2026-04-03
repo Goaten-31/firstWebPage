@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const showSidebarBtn = document.getElementById('showSidebarBtn');
     const hideSidebarBtn = document.getElementsByClassName('hideSidebarBtn');
     const sidebar = document.getElementById('sidebar');
+
+    const body = document.getElementsByName('body');
 });
 
 
