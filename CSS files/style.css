@@ -56,6 +56,24 @@ header{
   
   padding: 50px;
   margin: 0px 0px 24px 0px;
+
+  transition: 0.25s ease-in-out;
+}
+
+#first-card:hover{
+  background-color: #ff3b3b;
+  box-shadow: 2px 2px 8px 2px #ff3737;
+  transition: 0.25s ease-in-out;
+}
+
+#second-card:hover{
+  background-color: #3bff52;
+  transition: 0.25s ease-in-out;
+}
+
+#third-card:hover{
+  background-color: #3b8dff;
+  transition: 0.25s ease-in-out;
 }
 
 #intro{
@@ -373,14 +391,5 @@ main{
   to {
     transform: translateX(-30vw);
     opacity: 0;
-  }
-}
-
-@keyframes ScaleUp {
-  from{
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(1);
   }
 }
