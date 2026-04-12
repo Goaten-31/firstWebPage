@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/CSS files/style.css">
+    <title>first webpage</title>
+</head>
+<body>
+    <div class="container">
+        <header class="containerHeading">
+            <button class="toggleBtn" id="showSidebarBtn">☰</button>
+            <img src="/frontend/images/Goten.JPG" width="50" class="icon" id="icon" title="My GitHub">
+            <div class="dropdown">
+            <button class="dropbtn">...</button>
+            <div class="dropdown-content">
+                <p id="dropdownTitle">Options:</p>
+                <a href="#intro"id="firstElement">Slide</a>
+                <a href="#options">Box</a>
+                <a href="#other">Contact</a>
+            </div>
+            </div>
+
+            <div>
+                <h1 id="mainHeading"></h1>
+            </div>
+        </header>
+
+
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebarHeader">
+                <button id="hideSidebarBtn">☰</button>
+                <h2>Navigation</h2>
+            </div>
+            <ul class="navLinks">
+                <div>
+                    <li class="nav-link-container">
+                        <a href="#home">
+                            <img src="/frontend/images/icons/home.png">
+                            <div>Home</div>
+                        </a>
+                    </li>
+                </div>
+
+                <div>
+                    <li class="nav-link-container">
+                        <a href="#about">
+                            <img src="/frontend/images/icons/info.png">
+                            <span>About</span>
+                        </a>
+                    </li>
+                </div>
+
+                <div>
+                    <li class="nav-link-container">
+                        <a href="#contact">
+                            <img src="/frontend/images/icons/contact.png">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </div>
+
+            </ul>
+        </aside>
+
+        
+
+        <main>
+
+            <div class="card-container" id="intro">
+
+                <div class="card" id="first-card">
+                    <div class="card-header" id="first-card-header">
+                        First Card
+                    </div>
+                
+                    <div class="card-body" id="first-card-body">
+                        First Body of Text
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-container" id="options">
+
+                <div class="card" id="second-card">
+                    <div id="second-card-header" class="card-header">
+                        Second Card
+                    </div>
+                
+                    <div class="card-body" id="second-card-body">
+                        Second Body of Text
+                    </div>
+                </div>
+
+                <div class="card" id="third-card">
+                    <div id="third-card-header" class="card-header">
+                        Third Card
+                    </div>
+                
+                    <div class="card-body" id="third-card-body">
+                        Third Body of Text
+                    </div>
+                </div>
+
+            </div>
+        
+        </main>
+       
+
+    </div>
+    
+    <footer>
+        
+        <div id="other">
+            check out more stuff on my <a href="https://github.com/Goaten-31" target="_blank">Github</a>
+        </div>
+
+    </footer>
+    
+
+    <script type="module" src="/frontend/JS files/script.js"></script>
+    
+</body>
+</html>
