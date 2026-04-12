@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 import jwt
-import SQLAlchemy
+import sqlalchemy
 
 app = FastAPI()
 
