@@ -86,6 +86,7 @@ main{
   gap: 16px;
   padding: 12px;
   line-height: 25px;
+  max-width: 50vw;
 
   box-shadow: 6px 6px 6px #322738;
 
@@ -155,6 +156,11 @@ footer{
   width: 27vw;
   padding: 8px;
   border-radius: 4px;
+}
+
+#main-par{
+  font-size: 18px;
+  line-height: 28px;
 }
 
 #aside-title{
@@ -227,4 +233,8 @@ footer{
 
 .drop-shadow:hover{
   filter: drop-shadow(1px 2px 2px #ecebf0);
+}
+
+#fm-logo{
+  border-radius: 50%;
 }
